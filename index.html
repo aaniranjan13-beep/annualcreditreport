@@ -550,11 +550,11 @@ function setReportTab(tab){
   }
   if(panel&&titleEl&&bodyEl){
     if(tab==="public-records"){
-      titleEl.textContent="Public Records (Sample Demo)";
-      bodyEl.textContent="No bankruptcies, tax liens, or civil judgments are listed in this illustrative sample credit file.";
+      titleEl.textContent="Public Records";
+      bodyEl.textContent="No bankruptcies, tax liens, or civil judgments are listed in this credit file.";
     }else if(tab==="disputes"){
-      titleEl.textContent="Disputes Center (Sample Demo)";
-      bodyEl.textContent="This is a demonstration report preview. In an official bureau portal, you can submit and track account or inquiry disputes directly with each credit reporting agency.";
+      titleEl.textContent="Disputes Center";
+      bodyEl.textContent="This is a report preview. In an official bureau portal, you can submit and track account or inquiry disputes directly with each credit reporting agency.";
     }
     panel.classList.add("is-open");
     panel.scrollIntoView({behavior:"smooth",block:"nearest"});
